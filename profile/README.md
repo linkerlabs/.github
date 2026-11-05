@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/linkerlabs/branding/main/assets/banner_dark.png" alt="LinkerLabs Banner" width="100%">
-
-  # LinkerLabs
+  <img src="https://github.com/linkerlabs/.github/blob/main/profile/bannerAsset-2.png" alt="LinkerLabs Banner" width="100%">
 
   **Deterministic Hardware. Native Protocols. Zero Cloud.**
 
