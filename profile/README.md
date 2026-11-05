@@ -1,32 +1,24 @@
-# LinkerLabs
+<div align="center">
+  <img src="https://raw.githubusercontent.com/linkerlabs/branding/main/assets/banner_dark.png" alt="LinkerLabs Banner" width="100%">
 
-We build open-source hardware adapters, protocol bridges, and local-first firmware to integrate proprietary appliances into modern smart home ecosystems without vendor clouds.
+  # LinkerLabs
 
----
+  **Deterministic Hardware. Native Protocols. Zero Cloud.**
 
-### Active Focus: OpenHVAC
+  *An open-source hardware initiative committed to local-first infrastructure, transparent hardware design, and appliance sovereignty.*
 
-Most modern mini-split and heat pump systems rely on unreliable vendor clouds, slow mobile apps, or expensive closed dongles. **OpenHVAC** provides an open-source, hardware-level interface that taps directly into native indoor unit serial ports (CN105, S21, UART) for direct, deterministic local control.
-
-* **Hardware (`openhvac-hardware`):** Compact, opto-isolated/level-shifted adapter boards with integrated wide-input buck regulation designed to run reliably off internal board power.
-* **Firmware (`openhvac-firmware`):** Native C/C++ ESP32 firmware supporting local Home Assistant integration, local REST/MQTT, and continuous telemetry feedback.
-* **Home Assistant Component (`ha-openhvac`):** Turnkey HACS climate entity integration with full mode, fan, vane, and setpoint controls.
+</div>
 
 ---
 
-### Repositories
+### The Vision
 
-| Repository | Scope | Status |
-| :--- | :--- | :--- |
-| [openhvac-hardware](https://github.com/linkerlabs/openhvac-hardware) | KiCad schematics, PCB layout, gerbers, and 3D enclosure models | Active / REV1 |
-| [openhvac-firmware](https://github.com/linkerlabs/openhvac-firmware) | ESP32 core firmware, protocol drivers, and configuration tools | Active |
-| [ha-openhvac](https://github.com/linkerlabs/ha-openhvac) | Native Home Assistant integration component | In Development |
-| [branding](https://github.com/linkerlabs/branding) | Vector marks, KiCad silkscreen footprints, and color palettes | Maintained |
+Modern hardware ecosystems are plagued by artificial obsolescence, fragile vendor clouds, and opaque telemetry. Appliances designed to operate for decades are routinely crippled by discontinued mobile apps, deprecated cloud endpoints, or unserviceable electronics.
+
+**LinkerLabs** builds the physical bridges and deterministic firmware required to reclaim total ownership of our physical environments:
+
+* **Appliance Sovereignty:** Your home infrastructure should work indefinitely without an internet uplink, vendor subscription, or remote authorization server.
+* **Deterministic Execution:** We prioritize robust, bare-metal and RTOS-level implementations that treat serial communication and power delivery with automotive-grade rigor.
+* **Radical Hardware Transparency:** True open source extends beyond code. Schematics, bill of materials, PCB layouts, test fixtures, and 3D tooling are fully published and auditable.
 
 ---
-
-### Principles
-
-* **100% Local:** No external API keys, subscription models, or telemetry pings.
-* **Hardware Robustness:** Designed to survive dirty 12V/5V rails, transient noise, and tight indoor unit cavities.
-* **True Open Source:** Permissive licensing across schematics, gerbers, and source code.
